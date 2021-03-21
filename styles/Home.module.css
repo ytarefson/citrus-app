@@ -1,0 +1,29 @@
+.container {
+  background-color: bisque;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  max-width: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  /* 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.stage {
+  position: relative;
+  background-color: bisque;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  max-width: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+.inputfield {
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
