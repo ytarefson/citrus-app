@@ -16,10 +16,8 @@ function Grid(props) {
       setBoxWidth(props.width / (props.grid.W+3 ));
     }, [props])
     useEffect(() => {
-      
       let subgrid = []; 
       for (let i = 0; i <= props.grid.W*props.grid.H-1; i++) {
-        console.log(`Grid - ${boxWidth}`)
         subgrid.push(
           <Rectangle  key={`rect-${i}-${props.width}`} 
                       x={ 20+(i%props.grid.W)*boxWidth }
@@ -27,8 +25,6 @@ function Grid(props) {
                       width={ boxWidth }
                       fill={0x115362} />)
       }
-    
-
       setSubgrid(subgrid);
     }, [boxWidth])
     

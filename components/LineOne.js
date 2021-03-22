@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import {Graphics} from '@inlet/react-pixi';
 
 function LineOne(props) {
-  console.log(`LineOne - ${props.boxWidth}`)
+  // Первая и последняя точка отрезка далее
   let point1 = {
     x: ((props.pointOne.x*props.boxWidth)+20+props.boxWidth/2),
     y: props.pointOne.y*props.boxWidth+20+props.boxWidth/2

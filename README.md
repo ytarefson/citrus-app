@@ -1,5 +1,7 @@
 ### Citrus Application
 
+**https://citrus-app.vercel.app/** - Live Demo
+
 # Задание:
 
 - Создать поле 6x4 (WxH) из 24х квадратов используя PixiJS (https://www.pixijs.com/)

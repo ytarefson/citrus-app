@@ -9,6 +9,7 @@ const getSize = () => ({
 
 const Size = ({ children }) => {
   const [size, setSize] = useState(getSize);
+  
   useEffect(() => {
     const update = () => setSize(getSize());
     window.onresize = update;
