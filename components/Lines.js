@@ -6,8 +6,9 @@ export default function Lines(props) {
     
   useEffect(() => {
     let lines = [];
+    console.log(`Line - ${props.boxWidth}`)
     props.lines.map(line => 
-      lines.push(<Line line={line} boxWidth={props.boxWidth} key={`line-${line.toString()}`}/>));
+      lines.push(<Line line={line} boxWidth={props.boxWidth} key={`line-${line.toString()}-${props.boxWidth}`}/>));
     setLines(lines);
   }, [props]);
 
