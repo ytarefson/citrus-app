@@ -6,7 +6,7 @@ function Rectangle(props) {
       g.clear();
       g.beginFill(props.fill);
       g.lineStyle(4, 0x333333, 1)
-      g.drawRoundedRect(props.x, props.y, props.width, props.heigth, 15);
+      g.drawRoundedRect(props.x, props.y, props.width, props.width, 15);
       // g.drawRect(props.x, props.y, props.width, props.heigth);
       g.endFill();
     }, []);

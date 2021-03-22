@@ -22,7 +22,7 @@ function MyStage (props) {
     <Stage 
       {...getSize()}
       options={{
-        backgroundColor: 0x333333,
+        backgroundColor: 0x666666,
         resizeTo: window,
         autoDensity: true
       }}

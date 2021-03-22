@@ -20,7 +20,7 @@ function Grid(props) {
                       x={ 20+(i%props.grid.W)*boxWidth }
                       y={ 20 + Math.floor(i / props.grid.W)*boxWidth }
                       width={ boxWidth }
-                      fill={0x111111} />)
+                      fill={0x115362} />)
       }
       setSubgrid(subgrid);
     }, [props])
